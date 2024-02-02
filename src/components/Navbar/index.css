@@ -1,0 +1,132 @@
+.logo-link {
+    color: goldenrod !important;
+}
+.flex-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+    background-color: black;
+    padding: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 20px black;
+}
+
+.nav-ul {
+    display: flex;
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.nav-ul-1 {
+    display: none;
+    flex-direction: column;
+    list-style-type: none;
+    padding-inline-start: 0;
+    padding-top: 20px;
+}
+
+@media  screen and (max-width: 768px) {
+    .nav-ul-1 {
+        display: flex;
+    }
+    .nav-ul{
+        display: none;
+    }
+    .nav-btn {
+        display: flex !important;
+        outline: none !important;
+    }
+    nav{
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    nav {
+        padding-left: 20px;
+        padding-right: 5px;
+    }
+    .logo {
+        font-size: 30px !important;
+    }
+}
+
+.nav-li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.nav-li-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.nav-link {
+    color: goldenrod !important;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav-link-1 {
+    color: goldenrod !important;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 12px;
+    border: 2px solid goldenrod;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link-1:hover {
+    background-color: gold;
+    color: #000000 !important;
+    border-width: 0;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid gold;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.logo {
+    font-size: 35px;
+    animation: logoAnimate 10s linear infinite;
+    align-self: center;
+}
+
+.nav-btn {
+    background-color: transparent ;
+    outline: none !important ;
+    font-size: 20px;
+    color: goldenrod;
+    display: none;
+    border-width: 0 !important;
+}
+
+@keyframes logoAnimate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

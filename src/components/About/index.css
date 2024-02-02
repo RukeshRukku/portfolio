@@ -1,0 +1,132 @@
+.about-bg {
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+}
+.about-top {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: gold;
+    width: 100%;
+    font-size: 30px;
+    font-weight: 700;
+}
+.about-icon {
+    align-self: center;
+}
+.hr{
+    width: 100%;
+    border: 1.5px dashed gold;
+}
+
+.about-bottom-right {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-head {
+    font-size: 25px;
+    color: gold;
+    margin-bottom: 20px;
+}
+
+.diagram {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border: 2px solid rgb(244, 244, 136);
+    border-radius: 50%;
+    background-image: radial-gradient(gold, transparent, transparent);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline-start: 0;
+    list-style-type: none;
+    animation: rotate 10s linear infinite;
+    overflow: hidden;
+}
+
+.diagram:hover {
+    background-image: radial-gradient(rgb(245, 98, 0), transparent, transparent);
+    border: 2px solid rgb(245, 98, 0);
+}
+
+@media screen and (max-width: 768px) {
+    .about-bottom-right {
+        display: none;
+    }
+    .about-bottom-left {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about-top {
+        font-size: 20px;
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.about-list{
+    position: absolute;
+    transform: rotate(calc(360deg/4 * var(--i)));
+    transform-origin: 50px;
+    inset: 20px;
+    top: 10px;
+    left: 100px;
+}
+
+.diagram-icons{
+    color: gold;
+    height: 50px;
+    width: 50px;
+    background-color: #000000;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 20px #ffffff;
+    animation: subPlanet 20s linear infinite;
+}
+
+.para-span {
+    font-weight: 700;
+    margin-right: 20px;
+}
+.about-para-span {
+    margin-bottom: 10px;
+}
+
+@keyframes subPlanet {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.about-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.about-bottom-left {
+    width: 60%;
+    padding: 20px;
+    color: #ffffff;
+}
