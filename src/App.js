@@ -17,12 +17,12 @@ function App() {
         <Navbar />
         <div className='bg'>
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/about" element={<About />} />
-          <Route exact path='/contact' element={<Contact />} />
-          <Route exact path='/portfolio' element={<Portfolio />} />
-          <Route exact path='/resume' element={<Resume />} />
-          <Route exact path='/skills' element={<Skills />} />
+          <Route exact path="/portfolio/" element={<Home />} />
+          <Route exact path="/portfolio/about" element={<About />} />
+          <Route exact path='/portfolio/contact' element={<Contact />} />
+          <Route exact path='/portfolio/portfolio' element={<Portfolio />} />
+          <Route exact path='/portfolio/resume' element={<Resume />} />
+          <Route exact path='/portfolio/skills' element={<Skills />} />
         </Routes>
         </div>
       </BrowserRouter>

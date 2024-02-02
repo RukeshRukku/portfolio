@@ -20,12 +20,12 @@ class Navbar extends Component  {
 
     navBottom = () => {
         return <ul className="nav-ul-1">
-        <li className="nav-li-1"><Link to="/" className="nav-link-1" onClick={this.clickButton}>HOME</Link></li>
-        <li className="nav-li-1"><Link to="/about" className="nav-link-1" onClick={this.clickButton}>ABOUT ME</Link></li>
-        <li className="nav-li-1"><Link to="/skills" className="nav-link-1" onClick={this.clickButton}>SKILLS</Link></li>
-        <li className="nav-li-1"><Link to="/resume" className="nav-link-1" onClick={this.clickButton}>RESUME</Link></li>
-        <li className="nav-li-1"><Link to="/portfolio" className="nav-link-1" onClick={this.clickButton}>PORTFOLIO</Link></li>
-        <li className="nav-li-1"><Link to="/contact" className="nav-link-1" onClick={this.clickButton}>CONTACT</Link></li>
+        <li className="nav-li-1"><Link to="/portfolio/" className="nav-link-1" onClick={this.clickButton}>HOME</Link></li>
+        <li className="nav-li-1"><Link to="/portfolio/about" className="nav-link-1" onClick={this.clickButton}>ABOUT ME</Link></li>
+        <li className="nav-li-1"><Link to="/portfolio/skills" className="nav-link-1" onClick={this.clickButton}>SKILLS</Link></li>
+        <li className="nav-li-1"><Link to="/portfolio/resume" className="nav-link-1" onClick={this.clickButton}>RESUME</Link></li>
+        <li className="nav-li-1"><Link to="/portfolio/portfolio" className="nav-link-1" onClick={this.clickButton}>PORTFOLIO</Link></li>
+        <li className="nav-li-1"><Link to="/portfolio/contact" className="nav-link-1" onClick={this.clickButton}>CONTACT</Link></li>
     </ul>
     }
 
@@ -35,12 +35,12 @@ class Navbar extends Component  {
         <div className="flex-nav">
         <Link className="logo-link" to="/" onClick={this.clickButtonFalse}><FaReact className="logo" /></Link>
         <ul className="nav-ul">
-            <li className="nav-li"><Link to="/" className="nav-link">HOME</Link></li>
-            <li className="nav-li"><Link to="/about" className="nav-link">ABOUT ME</Link></li>
-            <li className="nav-li"><Link to="/skills" className="nav-link">SKILLS</Link></li>
-            <li className="nav-li"><Link to="/resume" className="nav-link">RESUME</Link></li>
-            <li className="nav-li"><Link to="/portfolio" className="nav-link">PORTFOLIO</Link></li>
-            <li className="nav-li"><Link to="/contact" className="nav-link">CONTACT</Link></li>
+            <li className="nav-li"><Link to="/portfolio/" className="nav-link">HOME</Link></li>
+            <li className="nav-li"><Link to="/portfolio/about" className="nav-link">ABOUT ME</Link></li>
+            <li className="nav-li"><Link to="/portfolio/skills" className="nav-link">SKILLS</Link></li>
+            <li className="nav-li"><Link to="/portfolio/resume" className="nav-link">RESUME</Link></li>
+            <li className="nav-li"><Link to="/portfolio/portfolio" className="nav-link">PORTFOLIO</Link></li>
+            <li className="nav-li"><Link to="/portfolio/contact" className="nav-link">CONTACT</Link></li>
         </ul>
         {clicked ? <button type="button" className="nav-btn" onClick={this.clickButton}><MdOutlineCancel /></button> : <button type="button" className="nav-btn" onClick={this.clickButton}><GiHamburgerMenu /></button>}
         </div>
