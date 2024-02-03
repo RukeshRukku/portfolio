@@ -1,7 +1,23 @@
 .size {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.port-list {
+    box-shadow: 0 0 10px 0 #ffffff;
     height: 200px;
     width: 200px;
     margin: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.port-list:hover {
+    border-radius: 20px;
+    width: 220px;
+    height: 220px;
+    margin: 10px;
+    box-shadow: 0 0 20px 0 gold;
 }
 
 .portfolio-bottom {
@@ -18,4 +34,5 @@
     align-items: center;
     flex-wrap: wrap;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
