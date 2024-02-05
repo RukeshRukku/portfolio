@@ -33,7 +33,7 @@ class Navbar extends Component  {
         const {clicked} = this.state
         return (<nav>
         <div className="flex-nav">
-        <Link className="logo-link" to="/" onClick={this.clickButtonFalse}><FaReact className="logo" /></Link>
+        <Link className="logo-link" to="/portfolio/" onClick={this.clickButtonFalse}><FaReact className="logo" /></Link>
         <ul className="nav-ul">
             <li className="nav-li"><Link to="/portfolio/" className="nav-link">HOME</Link></li>
             <li className="nav-li"><Link to="/portfolio/about" className="nav-link">ABOUT ME</Link></li>
