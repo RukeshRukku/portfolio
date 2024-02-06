@@ -29,9 +29,9 @@ const About = () => {
                 <p className="about-head">Personal Information</p>
                 <p className="about-para-span"><span className="para-span">Name:</span> Rukesh Guditi</p>
                 <p className="about-para-span"><span className="para-span">Age:</span> 24</p>
-                <p  className="about-para-span"><span className="para-span">Address:</span> India, Andhra Pradesh, Chittoor</p>
-                <p  className="about-para-span"><span className="para-span">Email:</span> guditirukesh23@gmail.com</p>
-                <p  className="about-para-span"><span className="para-span">Contact No:</span> +91 1234567890</p>
+                <p className="about-para-span"><span className="para-span">Address:</span> India, Andhra Pradesh, Chittoor</p>
+                <p className="about-para-span"><span className="para-span">Email:</span> guditirukesh23@gmail.com</p>
+                <p className="about-para-span"><span className="para-span">Contact No:</span> +91 9121076376</p>
             </div>
         <div className="about-bottom-right">
             <ul className="diagram">

@@ -30,6 +30,7 @@ nav {
     list-style-type: none;
     padding-inline-start: 0;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 @media  screen and (max-width: 768px) {
@@ -43,15 +44,12 @@ nav {
         display: flex !important;
         outline: none !important;
     }
-    nav{
-        padding-right: 10px;
-    }
 }
 
 @media screen and (max-width: 480px) {
     nav {
         padding-left: 20px;
-        padding-right: 5px;
+        padding-right: 20px;
     }
     .logo {
         font-size: 30px !important;
@@ -116,10 +114,11 @@ nav {
 .nav-btn {
     background-color: transparent ;
     outline: none !important ;
-    font-size: 20px;
+    font-size: 28px;
     color: goldenrod;
     display: none;
     border-width: 0 !important;
+    cursor: pointer;
 }
 
 @keyframes logoAnimate {

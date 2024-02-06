@@ -13,6 +13,7 @@
     justify-content: space-between;
 }
 .input {
+    color: #ffffff;
     width: 48%;
     height: 40px;
     border: 2px solid gold;
@@ -24,6 +25,7 @@
 }
 
 .input-textarea {
+    color: #ffffff;
     width: 48%;
     border: 2px solid gold;
     padding: 20px;

@@ -33,18 +33,18 @@ class Navbar extends Component  {
         const {clicked} = this.state
         return (<nav>
         <div className="flex-nav">
-        <Link className="logo-link" to="/portfolio/" onClick={this.clickButtonFalse}><FaReact className="logo" /></Link>
-        <ul className="nav-ul">
-            <li className="nav-li"><Link to="/portfolio/" className="nav-link">HOME</Link></li>
-            <li className="nav-li"><Link to="/portfolio/about" className="nav-link">ABOUT ME</Link></li>
-            <li className="nav-li"><Link to="/portfolio/skills" className="nav-link">SKILLS</Link></li>
-            <li className="nav-li"><Link to="/portfolio/resume" className="nav-link">RESUME</Link></li>
-            <li className="nav-li"><Link to="/portfolio/portfolio" className="nav-link">PORTFOLIO</Link></li>
-            <li className="nav-li"><Link to="/portfolio/contact" className="nav-link">CONTACT</Link></li>
-        </ul>
-        {clicked ? <button type="button" className="nav-btn" onClick={this.clickButton}><MdOutlineCancel /></button> : <button type="button" className="nav-btn" onClick={this.clickButton}><GiHamburgerMenu /></button>}
+            <Link className="logo-link" to="/portfolio/" onClick={this.clickButtonFalse}><FaReact className="logo" /></Link>
+            <ul className="nav-ul">
+                <li className="nav-li"><Link to="/portfolio/" className="nav-link">HOME</Link></li>
+                <li className="nav-li"><Link to="/portfolio/about" className="nav-link">ABOUT ME</Link></li>
+                <li className="nav-li"><Link to="/portfolio/skills" className="nav-link">SKILLS</Link></li>
+                <li className="nav-li"><Link to="/portfolio/resume" className="nav-link">RESUME</Link></li>
+                <li className="nav-li"><Link to="/portfolio/portfolio" className="nav-link">PORTFOLIO</Link></li>
+                <li className="nav-li"><Link to="/portfolio/contact" className="nav-link">CONTACT</Link></li>
+            </ul>
+            {clicked ? <button type="button" className="nav-btn" onClick={this.clickButton}><MdOutlineCancel /></button> : <button type="button" className="nav-btn" onClick={this.clickButton}><GiHamburgerMenu /></button>}
         </div>
-        {clicked === true && this.navBottom()}
+            {clicked === true && this.navBottom()}
         </nav>)
     }
 }
