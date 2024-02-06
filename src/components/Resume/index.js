@@ -23,11 +23,11 @@ const Resume = () => {
             <div className="resume-bottom-right margin">
                 <span className="resume-span" >EDUCATION</span>
                 <div className="resume-flex">
-                    <hr className="resume-hr" style={{height: "570px"}} />
+                    <hr className="resume-hr" style={{height: "600px"}} />
                     <div className="resume-design"></div>
-                    <div className="resume-design" style={{marginTop: "200px"}}></div>
-                    <div className="resume-design" style={{marginTop: "330px"}}></div>
-                    <div className="resume-design" style={{marginTop: "460px"}}></div>
+                    <div className="resume-design" style={{marginTop: "210px"}}></div>
+                    <div className="resume-design" style={{marginTop: "350px"}}></div>
+                    <div className="resume-design" style={{marginTop: "490px"}}></div>
                     <div className="resume-experience-flex">
                         <div className="experience one">
                             <span className="experience-span">BSc in Mathematics, Physics, Chemistry</span>
