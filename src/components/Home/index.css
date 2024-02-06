@@ -23,7 +23,7 @@
 
 .home-btn {
     outline: none;
-    border: 2px solid rgb(255, 255, 173) !important;
+    border: 2px solid gold !important;
     border-radius: 5px;
     background-color: transparent;
     height: 40px;
@@ -37,7 +37,7 @@
 }
 
 .home-btn:hover {
-    background-color: rgb(255, 255, 173);
+    background-color: rgb(245, 98, 0);
     color: #000000;
 }
 
