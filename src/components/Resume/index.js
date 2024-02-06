@@ -30,26 +30,34 @@ const Resume = () => {
                     <div className="resume-design" style={{marginTop: "460px"}}></div>
                     <div className="resume-experience-flex">
                         <div className="experience one">
-                            <span className="experience-span">BSc in Mathematics, Physics, Chemistry <span className="time">2019-2022</span></span>
-                            <p className="resume-experience-para"><span className="college-span"> College Name : </span>Sreenivasa Degree college - Kalikiri <br />
+                            <span className="experience-span">BSc in Mathematics, Physics, Chemistry</span>
+                            <p className="resume-experience-para">
+                            <span className="college-span"> Time Period : </span> 2019 - 2022 <br />
+                            <span className="college-span"> College Name : </span>Sreenivasa Degree college - Kalikiri <br />
                             <span className="college-span"> CGPA : </span>8.6
                             </p>
                         </div>
                         <div className="experience one">
-                            <span className="experience-span">Diploma in Elementary Education (D.El.Ed) <span className="time">2017-2019</span></span>
-                            <p className="resume-experience-para"><span className="college-span"> College Name : </span>Sreenivasa DEd college - Kalikiri <br />
+                            <span className="experience-span">Diploma in Elementary Education (D.El.Ed)</span>
+                            <p className="resume-experience-para">
+                            <span className="college-span"> Time Period : </span> 2017 - 2019 <br />
+                            <span className="college-span"> College Name : </span>Sreenivasa DEd college - Kalikiri <br />
                             <span className="college-span"> Percentage : </span> 89%
                             </p>
                         </div>
                         <div className="experience one">
-                            <span className="experience-span">Intermediate Education (MPC) <span className="time">2015-2017</span></span>
-                            <p className="resume-experience-para"><span className="college-span"> College Name : </span>S.K.V.N Govt Jr College - Somala <br />
+                            <span className="experience-span">Intermediate Education (MPC)</span>
+                            <p className="resume-experience-para">
+                            <span className="college-span"> Time Period : </span> 2015 - 2017 <br />
+                            <span className="college-span"> College Name : </span>S.K.V.N Govt Jr College - Somala <br />
                             <span className="college-span"> Percentage : </span> 93%
                             </p>
                         </div>
                         <div className="experience one">
-                            <span className="experience-span">Secondary School Certificate (10th Class) <span className="time">2014-2015</span></span>
-                            <p className="resume-experience-para"><span className="college-span"> College Name : </span>Z.P High School - Somala <br />
+                            <span className="experience-span">Secondary School Certificate (10th Class)</span>
+                            <p className="resume-experience-para">
+                            <span className="college-span"> Time Period : </span> 2014 - 2015 <br />
+                            <span className="college-span"> College Name : </span>Z.P High School - Somala <br />
                             <span className="college-span"> CGPA : </span> 9.5
                             </p>
                         </div>
